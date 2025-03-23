@@ -275,4 +275,4 @@ This kicks off:
 
 ScanOps automates end-to-end container security as part of a modern **(CI/CD)** workflow. Leveraging GitHub Actions, Trivy, and AWS services it ensures only vulnerability-free images are promoted to production, while others are quarantined with detailed SBOMs and scan results stored in S3 and alerts sent via Slack.
 
-> Note: Run `cleanup.sh` to delete all resources
+> Note: Run `cleanup.yaml` playbook to delete all AWS resources
