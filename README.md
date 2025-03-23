@@ -86,6 +86,16 @@ vim vars.yaml
 
 These secrets are accessed by the GitHub Actions workflow to authenticate with AWS and send alerts to Slack
 
+<details close>
+  <summary> <h4>Image Results</h4> </summary>
+    
+![scanops](https://i.imgur.com/fk2TFSC.png)
+
+  - **List S3**: Bucket contains results under athena-results/, including .csv and .csv.metadata files
+  - **List local directory**: Confirmed `~/CVEDataLake/query_results/` has multiple JSON query result files
+  - **Examine JSON file**: Results confirm properly formatted structured JSON data
+</details>
+
 ### Run Ansible setup playbook
 ```bash
 ansible-playbook infra.yaml -vv
@@ -110,11 +120,19 @@ aws s3 ls
 <details close>
   <summary> <h4>Image Results</h4> </summary>
     
-![CVEDataLake](https://i.imgur.com/idwIvVZ.png)
+![scanops](https://i.imgur.com/NDC24VN.png) 
+![scanops](https://i.imgur.com/hVgJwLa.png) 
+![scanops](https://i.imgur.com/rFx1Ecg.png) 
 
   - **List S3**: Bucket contains results under athena-results/, including .csv and .csv.metadata files
   - **List local directory**: Confirmed `~/CVEDataLake/query_results/` has multiple JSON query result files
   - **Examine JSON file**: Results confirm properly formatted structured JSON data
+
+![scanops](https://i.imgur.com/tmSbOyS.png) 
+![scanops](https://i.imgur.com/Wv76N7z.png) 
+
+  - **List S3**: Bucket contains results under athena-results/, including .csv and .csv.metadata files
+  - **List local directory**: Confirmed `~/CVEDataLake/query_results/` has multiple JSON query result files
 </details>
 
 ## Deployment
@@ -142,8 +160,7 @@ cat docker/python/Dockerfile
 <details close>
   <summary> <h4>Image Results</h4> </summary>
     
-![CVEDataLake](https://i.imgur.com/idwIvVZ.png)
-![CVEDataLake](https://i.imgur.com/fWI7OLO.png)
+![scanops](https://i.imgur.com/I8LUEGX.png) 
 
   - **List S3**: Bucket contains results under athena-results/, including .csv and .csv.metadata files
   - **List local directory**: Confirmed `~/CVEDataLake/query_results/` has multiple JSON query result files
@@ -199,8 +216,16 @@ This kicks off:
 <details close>
   <summary> <h4>Image Results</h4> </summary>
     
-![CVEDataLake](https://i.imgur.com/idwIvVZ.png)
-![CVEDataLake](https://i.imgur.com/fWI7OLO.png)
+![scanops](https://i.imgur.com/AWvYfDb.png) 
+![scanops](https://i.imgur.com/DKCPWxa.png) 
+![scanops](https://i.imgur.com/fCFsuBF.png) 
+![scanops](https://i.imgur.com/6FNeXAA.png) 
+![scanops](https://i.imgur.com/rwejnA2.png) 
+![scanops](https://i.imgur.com/Sd6V77g.png) 
+![scanops](https://i.imgur.com/SqWLHIS.png) 
+![scanops](https://i.imgur.com/sVAqNVv.png) 
+![scanops](https://i.imgur.com/nysAYkU.png) 
+![scanops](https://i.imgur.com/hemgDJf.png) 
 
   - **List S3**: Bucket contains results under athena-results/, including .csv and .csv.metadata files
   - **List local directory**: Confirmed `~/CVEDataLake/query_results/` has multiple JSON query result files
