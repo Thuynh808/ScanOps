@@ -118,7 +118,6 @@ aws s3 ls
 <details close>
   <summary> <h4>Image Results</h4> </summary>
     
-![scanops](https://i.imgur.com/NDC24VN.png) 
 ![scanops](https://i.imgur.com/hVgJwLa.png) 
 ![scanops](https://i.imgur.com/rFx1Ecg.png) 
 
