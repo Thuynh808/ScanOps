@@ -2,6 +2,7 @@
 
 ![scanops](https://i.imgur.com/9KP3bpP.png)
 
+
 ## Project Overview
 
 ScanOps is an automated container security pipeline that builds, scans, and promotes Docker images based on their vulnerability status. Leveraging GitHub Actions **(CI/CD)**, Trivy, AWS ECR, and S3, it ensures only safe containers are pushed to production. For vulnerability and compliance tracking, SBOMs **(Software Bill of Materials)** are generated and alerts are triggered on vulnerable builds.
